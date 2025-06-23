@@ -16,6 +16,7 @@ do
         for user in $users;
         do
 
+                echo "Teste"
                 getstatus=$(aws iam list-access-keys --user-name $user --profile $conta  --output json)
                 getkeys=$(aws iam list-access-keys --user-name $user --profile $conta --query 'AccessKeyMetadata[].[AccessKeyId]' --output text > keys)
 
