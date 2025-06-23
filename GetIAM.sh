@@ -16,12 +16,13 @@ do
         for user in $users;
         do
 
-                echo "Teste"
-                getstatus=$(aws iam list-access-keys --user-name $user --profile $conta  --output json)
+                getpoicies=$(aws iam list-attached-user-policies --user-name $user --profile $conta --output json)
+                getstatus=$(aws iam list-access-keys --user-name $user --profile $conta --output json)
                 getkeys=$(aws iam list-access-keys --user-name $user --profile $conta --query 'AccessKeyMetadata[].[AccessKeyId]' --output text > keys)
 
                 echo -e "\nInfo About All the Keys for the user: $user"
                 echo "$getstatus"
+                echo "$getpoicies"
                 echo "$getkeys"
 
                 keys=`cat keys`
