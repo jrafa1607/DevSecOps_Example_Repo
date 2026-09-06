@@ -12,5 +12,7 @@
 * **Security Domain:** Static Analysis (SAST)
 * **Recommended Tools:** [Checkov](https://www.checkov.io/) or [ShellCheck](https://www.shellcheck.net/)
 
+---
+
 > [!IMPORTANT]
 > This repository is for **educational purposes only**. The scripts provided may contain intentional security flaws to demonstrate how scanning tools function. Do not use these scripts in production environments without proper auditing.
