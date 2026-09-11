@@ -18,3 +18,12 @@ The project demonstrates how to identify vulnerabilities, excessive permissions,
 
 > [!IMPORTANT]
 > This repository is for **educational purposes only**. The scripts provided may contain intentional security flaws to demonstrate how scanning tools function. Do not use these scripts in production environments without proper auditing.
+
+---
+
+#### ⚖️ Intellectual Property (IP) Notice
+All source code, documentation, and research methodologies contained in this repository are the exclusive Intellectual Property of the author. All rights reserved. Use of this content for academic or professional purposes must include proper citation and attribution to the original research.
+
+**Copyright © 2026 João Rafael.**
+
+---
